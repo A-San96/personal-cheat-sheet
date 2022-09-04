@@ -1,7 +1,9 @@
 <a href="../README.md">
 <button>⬅Retour</button>
 </a>
+
 # Enhance your git log with conventional commits
+
 Git is a very powerful tool installed on most of our machines. As developer, we use it every day. But, unfortunately, at first glance, this tool is not very developer friendly. That’s why a lot of people bypass the command line interface (CLI) with a graphical user interface (GUI).
 It’s like using a framework without knowing the language itself. It can be OK at the beginning but, sooner or later you, you will have problems.
 

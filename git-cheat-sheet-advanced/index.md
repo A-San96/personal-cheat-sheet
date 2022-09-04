@@ -1,18 +1,23 @@
 <a href="../README.md">
 <button>⬅Retour</button>
 </a>
+
 # Git: Cheat Sheet (advanced)
+
 If you find git confusing, I created this little cheat sheet! Please, note that I voluntarily skipped the basic commands like `git commit`, `git pull/push`… This cheat sheet is intended for advanced usage of git.
+
 <center>
 <img src="git-flows.webp" />
 </center>
 
 ## 🧭 Navigation - Go to the previous branch
+
 ```bash
 git checkout -
 ```
 
 ## 🔍 Get the history
+
 ```bash
 # Log in one line
 git log --oneline
@@ -26,6 +31,7 @@ git log --author="Maxence"
 ```
 
 ## 🙈Ooops #1: I reseted an unwanted commit. How to rollback?
+
 ```bash
 # Get everything you did
 git reflog
@@ -38,6 +44,7 @@ git reset --hard <commit-sha1>
 For more detail about this command, I wrote another post: [What’s happens when you ‘git commit’.](https://www.maxpou.fr/git-under-the-hood)
 
 ## 🤦‍♀️Ooops #2: I mixed-up with my local repo. How to clean it?
+
 ```bash
 git fetch origin
 git checkout master
@@ -46,11 +53,13 @@ git reset --hard origin/master
 ```
 
 ## 🕵🏻‍♂️Difference between my branch and `master`
+
 ```bash
 git diff master..my-branch
 ```
 
 ## ✔ Custom commits
+
 ```bash
 # Edit last commit
 git commit --amend -m "A better message"
@@ -64,6 +73,7 @@ git commit --allow-empty -m "chore: re-trigger build"
 *If you don’t know what to put in your commit messages, I wrote a [post about conventional commits.](https://www.maxpou.fr/git-conventional-commits)* 
 
 ## ♻️ Squash commits 
+
 *Let say I want to rebase the last 3 commits:*
 
 1. `git rebase -i HEAD~3`
@@ -73,6 +83,7 @@ git commit --allow-empty -m "chore: re-trigger build"
 👉 [Click here for watch the YouTube video](https://www.youtube.com/watch?v=Waa9A_h4eHI&ab_channel=MaxencePoutord)
 
 ## 🎯Fixup
+
 *Let say I want to add something in the commit `fed14a4c`*
 
 <center>
@@ -90,6 +101,7 @@ git rebase -i HEAD~3 --autosquash
 ```
 
 ## 🕹Execute command on each commit when rebasing
+
 For massives features, you might end up with a branch with a few commits inside. And then tests are failing and you want to identify the “guilty commit”. You can use `rebase --exec` to execute a command on each commit of the history.
 
 ```bash
@@ -101,6 +113,7 @@ git rebase HEAD~3 --exec "npm run test"
 </center>
 
 ## 🦋Stash
+
 *Because it’s not all about `git stash` and `git stash pop`* ;)
 
 ```bash
@@ -154,4 +167,5 @@ git-standup() {
 ```
 
 ## 📃 Source
+
 [https://dev.to/maxpou/git-cheat-sheet-advanced-3a17](https://dev.to/maxpou/git-cheat-sheet-advanced-3a17)
