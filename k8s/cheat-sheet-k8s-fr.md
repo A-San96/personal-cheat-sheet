@@ -1,15 +1,10 @@
 <a href="./index.md">
 <button>⬅Back</button>
 </a>
+
 # Aide-mémoire kubectl | Kubectl Official Cheatsheet (French)
 
 Cette page donne un aperçu de la commande `kubectl`.
-
-
-
-<!-- body -->
-
-
 
 ## Auto-complétion avec Kubectl
 

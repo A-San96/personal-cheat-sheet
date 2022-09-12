@@ -22,3 +22,9 @@
 - [Upgrading your clusters with zero downtime](https://cloud.google.com/blog/products/containers-kubernetes/kubernetes-best-practices-upgrading-your-clusters-with-zero-downtime)
 
 > Source: [Google Cloud Blog](https://cloud.google.com/blog/products/containers-kubernetes)
+
+
+## Monitoring and Logging
+- [Best practices for monitoring (AWS)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/monitoring_best_practices.html)
+- [Scalable Logging and Tracking (Netflix Tech Blog)](https://netflixtechblog.com/scalable-logging-and-tracking-882bde0ddca2)
+- [Designing a Logging Strategy (Oracle)](https://docs.oracle.com/cd/E19424-01/820-4806/fyfcv/index.html)
