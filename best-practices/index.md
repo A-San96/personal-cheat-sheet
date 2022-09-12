@@ -1,5 +1,5 @@
 <a href="../README.md">
-<button>⬅Retour</button>
+<button>⬅Back</button>
 </a>
 
 # Best Practices link for some tools and technologies
