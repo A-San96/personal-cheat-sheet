@@ -4,8 +4,8 @@
 
 # kubernetes cheat sheet
 This my personal cheatsheet but you can check the official cheatsheet here choose your prefered language:
-- [Kubernetes Official Cheetsheet in french](./cheat-sheet-k8s-fr.md)
-- [Kubernetes Official Cheetsheet in english](./cheatsheet-k8s-en.md)
+- [Kubernetes Official Cheatsheet in french](./cheat-sheet-k8s-fr.md)
+- [Kubernetes Official Cheatsheet in english](./cheatsheet-k8s-en.md)
 ## Clusters, Contexts and Users
 - View
 ```bash
