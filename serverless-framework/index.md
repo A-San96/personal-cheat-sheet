@@ -4,7 +4,7 @@
 
 # Serverless Framework cheat-sheet
 
-## INSTALL
+## Install
 ```bash
 npm install -g serverless
 ```
@@ -17,17 +17,17 @@ sls config credentials --provider aws --key <YOUR_ACCESS_KEY> --secret <YOUR_SEC
 
 ```
 
-## CREATE PROJECT
+## Create project
 ```bash
 serverless create --template aws-nodejs-typescript --path <folder-name>
 ```
 
-## INSTALL PLUGIN
+## Install plugin
 ```bash
 npm install <plugin-name> --save-dev
 ```
 
-## DEPLOY PROJECT
+## Deploy project
 ```bash
 sls deploy -v
 ```
