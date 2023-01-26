@@ -30,4 +30,6 @@ npm install <plugin-name> --save-dev
 ## Deploy project
 ```bash
 sls deploy -v
+# For use specific profile
+sls deploy -v --aws-profile serverless
 ```
