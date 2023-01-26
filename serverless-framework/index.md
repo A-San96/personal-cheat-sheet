@@ -32,4 +32,4 @@ npm install <plugin-name> --save-dev
 sls deploy -v
 # For use specific profile
 sls deploy -v --aws-profile serverless
-```
+```git
